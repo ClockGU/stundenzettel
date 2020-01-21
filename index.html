@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tailwind.run Export | bwjAVJ / 6</title>
+    <link rel="stylesheet" href="tailwind.out.css">
+  </head>
+  <body>
+    <style>
+      html {
+        background-color: white;
+        font-family: 'Lucida Grande', Verdana, sans-serif;
+        width: 210mm;
+        height: 296mm;
+      }
+    </style>
+
+    <div class="flex h-full">
+      <div class="whitespace-no-wrap w-64 mt-6 pl-4 text-sm h-full">
+        <div class="w-full text-blue-600 capitalize text-2xl">
+          Stundenzettel
+        </div>
+        <div class="flex flex-wrap mb-1 text-gray-700 text-xs">
+          November 2019
+        </div>
+        <div class="flex flex-wrap mb-4 whitespace-normal text-gray-700 text-xs">
+          Fachbereich 123
+        </div>
+        <div class="flex flex-wrap mb-4">
+          <span class="w-full font-bold text-blue-600">Name</span>
+          <br />
+          <span class="w-full whitespace-normal text-gray-700">Johann W. Goethe</span>
+        </div>
+        <div class="flex flex-wrap mb-4">
+          <span class="w-full font-bold text-blue-600">Personalnummer</span>
+          <br />
+          <span class="text-gray-700">123456</span>
+        </div>
+        <div class="mt-8">
+          <div
+            class="w-full text-blue-600 mb-4 whitespace-normal capitalize text-2xl"
+          >
+            Zeitkonto
+          </div>
+          <div class="flex flex-wrap mb-4">
+            <span class="w-full font-bold text-blue-600">Übertrag Vormonat</span>
+            <br />
+            <span class="text-gray-700">00:00</span>
+          </div>
+          <div class="flex flex-wrap mb-4">
+            <span class="w-full font-bold text-blue-600">Monatl. Arbeitszeit</span>
+            <br />
+            <span class="text-gray-700">40:00</span>
+          </div>
+          <div class="flex flex-wrap mb-4">
+            <span class="w-full font-bold text-blue-600">Geleistete Arbeitszeit</span>
+            <br />
+            <span class="text-gray-700">18:00</span>
+          </div>
+          <div class="flex flex-wrap mb-4">
+            <span class="w-full font-bold text-blue-600">Übertrag Folgemonat</span>
+            <br />
+            <span class="text-gray-700">00:00</span>
+          </div>
+        </div>
+        <div class="absolute bottom-0">
+          <span class="font-bold text-blue-600 text-xs">Legende</span>
+          <ul class="list-none text-xs">
+            <li>Feiertag (F)</li>
+            <li>Urlaub (U)</li>
+            <li>Krank (K)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex-auto w-full">
+        <table class="table-auto text-xxs">
+          <thead>
+            <tr>
+              <th class="px-4 py-2">Datum</th>
+              <th class="px-4 py-2">Start</th>
+              <th class="px-4 py-2">Ende</th>
+              <th class="px-4 py-2">Abwesenheitsgrund</th>
+              <th class="px-4 py-2">Pause</th>
+              <th class="px-4 py-2">Netto-Arbeitszeit</th>
+              <th class="px-4 py-2">F / K / U</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr>
+              <td class="border px-4 py-2">01.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">02.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">03.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">04.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">05.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">06.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">07.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">08.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">09.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">10.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">11.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">12.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">13.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">14.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">15.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">16.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">17.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">18.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">19.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">20.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">21.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">22.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">23.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">24.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">25.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">26.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">27.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">28.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">29.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border px-4 py-2">30.11.</td>
+              <td class="border px-4 py-2">08:00</td>
+              <td class="border px-4 py-2">10:00</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">00:00</td>
+              <td class="border px-4 py-2">02:00</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">31.11.</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+              <td class="border px-4 py-2">-</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2"></td>
+              <td class="px-4 py-2"></td>
+              <td class="px-4 py-2"></td>
+              <td class="px-4 py-2"></td>
+              <td class="border px-4 py-2"></td>
+              <td class="border px-4 py-2">18:00</td>
+              <td class="border px-4 py-2">00:00</td>
+            </tr>
+            <tr class="font-bold text-xs">
+              <td class="px-4 py-2"></td>
+              <td class="px-4 py-2"></td>
+              <td class="px-4 py-2"></td>
+              <td class="px-4 py-2"></td>
+              <td class="border px-4 py-2">Summe</td>
+              <td class="border px-4 py-2">18:00</td>
+              <td class="px-4 py-2"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="flex mt-16 text-xs">
+          <div class="flex-none font-bold pb-10 mr-8 border-b w-48">
+            Datum / Ort
+          </div>
+          <div class="flex-none font-bold ml-10 border-b w-48">Unterschrift</div>
+        </div>
+        <footer class="mt-8 text-xs text-gray-600">
+          <div>Dieser Stundenzettel wurde maschinell mit Hilfe von <a class="text-blue-600" href="https://clockgu.netlify.com">Clock</a> erstellt.
+          </div>
+          <div>Stand: 21. November 2019</div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

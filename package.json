@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "tailwind build tailwind.css -o tailwind.out.css",
+    "generate:pdf": "wkhtmltopdf index.html out.pdf"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.2",
+    "tailwindcss": "^1.1.3"
+  },
+  "devDependencies": {}
+}
