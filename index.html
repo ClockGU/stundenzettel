@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tailwind.run Export | bwjAVJ / 6</title>
-    <link rel="stylesheet" href="tailwind.out.css">
+    <link rel="stylesheet" href="tailwind.out.css" />
   </head>
   <body>
     <style>
       html {
         background-color: white;
-        font-family: 'Lucida Grande', Verdana, sans-serif;
+        font-family: "Lucida Grande", Verdana, sans-serif;
         width: 210mm;
         height: 296mm;
       }
     </style>
 
     <div class="flex h-full">
-      <div class="whitespace-no-wrap w-64 mt-6 pl-4 text-sm h-full">
+      <div class="whitespace-no-wrap w-1/3 mt-6 pl-4 text-sm h-full">
         <div class="w-full text-blue-600 capitalize text-2xl">
-          Stundenzettel
+          Arbeitszeitkonto
         </div>
         <div class="flex flex-wrap mb-1 text-gray-700 text-xs">
           November 2019
         </div>
-        <div class="flex flex-wrap mb-4 whitespace-normal text-gray-700 text-xs">
+        <div
+          class="flex flex-wrap mb-4 whitespace-normal text-gray-700 text-xs"
+        >
           Fachbereich 123
         </div>
         <div class="flex flex-wrap mb-4">
           <span class="w-full font-bold text-blue-600">Name</span>
           <br />
-          <span class="w-full whitespace-normal text-gray-700">Johann W. Goethe</span>
+          <span class="w-full whitespace-normal text-gray-700"
+            >Johann W. Goethe</span
+          >
         </div>
         <div class="flex flex-wrap mb-4">
           <span class="w-full font-bold text-blue-600">Personalnummer</span>
@@ -43,27 +47,35 @@
             Zeitkonto
           </div>
           <div class="flex flex-wrap mb-4">
-            <span class="w-full font-bold text-blue-600">Übertrag Vormonat</span>
+            <span class="w-full font-bold text-blue-600"
+              >Übertrag Vormonat</span
+            >
             <br />
             <span class="text-gray-700">00:00</span>
           </div>
           <div class="flex flex-wrap mb-4">
-            <span class="w-full font-bold text-blue-600">Monatl. Arbeitszeit</span>
+            <span class="w-full font-bold text-blue-600"
+              >Monatliche Arbeitszeit</span
+            >
             <br />
             <span class="text-gray-700">40:00</span>
           </div>
           <div class="flex flex-wrap mb-4">
-            <span class="w-full font-bold text-blue-600">Geleistete Arbeitszeit</span>
+            <span class="w-full font-bold text-blue-600"
+              >Geleistete Arbeitszeit</span
+            >
             <br />
             <span class="text-gray-700">18:00</span>
           </div>
           <div class="flex flex-wrap mb-4">
-            <span class="w-full font-bold text-blue-600">Übertrag Folgemonat</span>
+            <span class="w-full font-bold text-blue-600"
+              >Übertrag Folgemonat</span
+            >
             <br />
             <span class="text-gray-700">00:00</span>
           </div>
         </div>
-        <div class="absolute bottom-0">
+        <div class="absolute bottom-0 mb-6">
           <span class="font-bold text-blue-600 text-xs">Legende</span>
           <ul class="list-none text-xs">
             <li>Feiertag (F)</li>
@@ -73,7 +85,7 @@
         </div>
       </div>
 
-      <div class="flex-auto w-full">
+      <div class="flex-auto w-2/3">
         <table class="table-auto text-xxs">
           <thead>
             <tr>
@@ -366,35 +378,24 @@
               <td class="border px-4 py-2">-</td>
               <td class="border px-4 py-2">-</td>
             </tr>
-            <tr>
-              <td class="px-4 py-2"></td>
-              <td class="px-4 py-2"></td>
-              <td class="px-4 py-2"></td>
-              <td class="px-4 py-2"></td>
-              <td class="border px-4 py-2"></td>
-              <td class="border px-4 py-2">18:00</td>
-              <td class="border px-4 py-2">00:00</td>
-            </tr>
-            <tr class="font-bold text-xs">
-              <td class="px-4 py-2"></td>
-              <td class="px-4 py-2"></td>
-              <td class="px-4 py-2"></td>
-              <td class="px-4 py-2"></td>
-              <td class="border px-4 py-2">Summe</td>
-              <td class="border px-4 py-2">18:00</td>
-              <td class="px-4 py-2"></td>
-            </tr>
           </tbody>
         </table>
 
-        <div class="flex mt-16 text-xs">
+        <div class="flex mt-16 text-xs self-end">
           <div class="flex-none font-bold pb-10 mr-8 border-b w-48">
             Datum / Ort
           </div>
-          <div class="flex-none font-bold ml-10 border-b w-48">Unterschrift</div>
+          <div class="flex-none font-bold ml-10 border-b w-48">
+            Unterschrift
+          </div>
         </div>
         <footer class="mt-8 text-xs text-gray-600">
-          <div>Dieser Stundenzettel wurde maschinell mit Hilfe von <a class="text-blue-600" href="https://clockgu.netlify.com">Clock</a> erstellt.
+          <div>
+            Dieser Stundenzettel wurde maschinell mit Hilfe von
+            <a class="text-blue-600" href="https://clockgu.netlify.com"
+              >Clock</a
+            >
+            erstellt.
           </div>
           <div>Stand: 21. November 2019</div>
         </footer>
